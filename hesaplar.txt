@@ -1,5 +1,1 @@
 
-Kullanıcı adı: 123 Şifre: 123
-Kullanıcı adı: admin Şifre: kral_53
-Kullanıcı adı: efef Şifre: efef
-Kullanıcı adı: ty Şifre: ty
